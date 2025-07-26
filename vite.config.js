@@ -190,6 +190,7 @@ logger.error = (msg, options) => {
 }
 
 export default defineConfig({
+	base: '/auto/',  
 	customLogger: logger,
 	plugins: [
 		...(isDev ? [inlineEditPlugin(), editModeDevPlugin()] : []),
