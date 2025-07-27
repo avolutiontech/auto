@@ -19,7 +19,7 @@ function HeroSection({ handleBookingClick, handleQuoteClick }) {
             transition={{ duration: 0.8 }}
             className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight"
           >
-            Elite Auto Workshop
+            Auto Beast Workshop
             <span className="block text-red-500">Pakenham</span>
           </motion.h1>
           
